@@ -1,0 +1,18 @@
+Disassembly Listing for lab1
+Generated From:
+C:/Users/EYanN/OneDrive/Área de Trabalho/Unifei/Micro/Code/lab1.X/dist/default/debug/lab1.X.debug.cof
+17/05/2021 22:52:36
+
+---  C:/Users/EYanN/OneDrive/?rea de Trabalho/Unifei/Micro/Code/lab1.X/mainn.asm  -----------------------
+0000  2803     GOTO 0x3
+0003  1683     BSF STATUS, 0x5
+0004  0185     CLRF PORTA
+0005  1703     BSF STATUS, 0x6
+0006  0188     CLRF PORTD
+0007  1303     BCF STATUS, 0x6
+0008  1283     BCF STATUS, 0x5
+0009  0185     CLRF PORTA
+000A  0000     NOP
+000B  300F     MOVLW 0xF
+000C  0000     NOP
+000D  2809     GOTO 0x9
